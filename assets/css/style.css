@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+body {
+    width: auto;
+    height: auto;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+header {
+    width: auto;
+    height: 40px;
+    background-color: #0090e3;
+}
+
+#cblogo {
+    height: 40px;
+    width: auto;
+    margin-left: 15px;
+}
+
+#textlinks {
+    width: 300px;
+    text-align: right;
+    float: left;
+    margin-left: 65px;
+    line-height: 2.3;
+}
+
+#textrechts {
+    width: 425px;
+    line-height: 2.3;
+    float: right;
+    margin-right: 700px;
+}
+
+#pwtext {
+    color: gray;
+    font-size: 13.5px;
+    line-height: 1.1;
+}
+
+#blauw {
+    color: #0090e3;
+}
+
+#box {
+    height: 50px;
+    width: 800px;
+    float: right;
+    margin-right: 530px;
+    border-radius: 3px;
+    background-color: rgb(242, 242, 242);
+    margin-top: 30px;
+    border: 3px solid rgb(238, 238, 238);
+}
+
+#submit {
+    float: right;
+    background-color: rgb(0, 186, 1);
+    border-color: rgb(0, 186, 1);
+    border-radius: 4px;
+    color: white;
+    height: 34px;
+    width: 100px;
+    margin-top: 8px;
+    margin-right: 4px;
+}
+
+#textboven {
+    font-size: 19px;
+    font-weight: bold;
+    color: mediumblue;
+    margin-left: 115px;
+    margin-top: 25px;
+}
+
+#textboven2 {
+    font-size: 18px;
+    color: #0090e3;
+    margin-left: 115px;
+}
+
+#textbovenww {
+    font-size: 19px;
+    font-weight: bold;
+    color: mediumblue;
+    line-height: 1.2;
+    margin-top: 20px;
+}
+
+#textbovenww2 {
+    font-size: 18px;
+    color: #0090e3;
+    line-height: 1.2;
+}
+
+#contactleft {
+    width: 60%;
+    height: 50px;
+    background-color: #0090e3;
+    float: right;
+    margin-top: 50px;
+}
+
+#contactright {
+    width: 40%;
+    height: 50px;
+    background-color: #0090e3;
+    float: right;
+    margin-top: 50px;
+}

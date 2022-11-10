@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Coolblue</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="assets/img/logo.png" alt="cblogo" id="cblogo">
+    </header>
+
+    <div id="textboven">JE GEGEVENS.</div>
+    <div id="textboven2"> Wat moet er op de factuur staan.</div>
+
+    <div id="form">
+        <form action="#">
+            <div id="textrechts">
+                <input type="radio" name="bestelling" value="particulier">Particulier
+                <input type="radio" name="bestelling" value="zakelijk">Zakelijk <br>
+
+                <input type="radio" name="aanhef" value="dhr">Dhr.
+                <input type="radio" name="aanhef" value="mevr">Mevr. <br>
+
+                <input type="text" size="17" maxlength="40" name="voornaam" placeholder="Voornaam">
+                <input type="text" size="7" maxlength="40" name="tussenvoeging" placeholder="Tussenv.">
+                <input type="text" size="17" maxlength="40" name="achternaam" placeholder="Achternaam"> <br>
+
+                <input type="text" size="5" maxlength="6" name="postcode" placeholder="1234AB"> <br>
+
+                <input type="text" size="4" maxlength="40" name="nummer" placeholder="Nr.">
+                <input type="text" size="3" maxlength="40" name="toevoeging" placeholder="Toev."> <br>
+
+                Nederland > Belgie laten bezorgen<br>
+
+                <input type="radio" name="afleveradres" value="bovenstaand">Op bovenstaand adres bezorgen
+                <input type="radio" name="afleveradres" value="ander">Op ander adres bezorgen <br>
+
+                <input type="text" size="35" maxlength="40" name="email"> <br>
+
+                <input type="text" size="15" maxlength="40" name="telefoonnummer"> <br>
+
+                <input type="text" size="15" maxlength="10" name="datum" placeholder="dd-mm-jjjj"> <br>
+
+                <input type="radio" name="factuur" value="peremail">Factuur per e-mail
+                <input type="radio" name="factuur" value="bijbestelling">Factuur geprint bij de bestelling <br>
+
+                <input type="checkbox" name="nieuwsbrief" value="ja"> Ja, ik wil de Coolblue-nieuwsbrief met €5,-
+                cadeaubon
+                voor mijn volgende bestelling <br>
+
+                <input type="color" value="#000000" size="15px"><br>
+                <!--terugkomen voor lengte -->
+
+                <br> <br>
+                <label for="pwd"></label>
+                <input type="password" id="pwd" name="pwd" minlength="6"> <br>
+                <div id="pwtext">
+                    Minimaal 6 karakters. <br> Verder doen we niet zo moeilijk. <br>
+                </div>
+                <label for="pwd"></label>
+                <input type="password" id="pwd" name="pwd" minlength="6">
+            </div>
+
+            <div id="textlinks">
+                Type bestelling <br>
+                Aanhef<br>
+                Naam<br>
+                Postcode<br>
+                Huisnummer<br>
+                Land<br>
+                Afleveradres<br>
+                E-mailadres<br>
+                Telefoonnummer<br>
+                Geboortedatum<br>
+                Verzendwijze factuur <br>
+                Nieuwsbrief<br><br>
+                Kleur verpakking
+                <div id="textbovenww">BEWAAR JE GEGEVENS.</div>
+                <div id="textbovenww2"> Handig voor de volgende keer.</div>
+
+                Wachtwoord<br> <br>
+                Wachtwoord bevestigen<br>
+            </div>
+            <div id="box">
+                <input type="submit" id="submit" value="Verder">
+            </div>
+        </form>
+    </div>
+
+    <div id="contactright">
+
+    </div>
+
+    <div id="contactleft">
+
+    </div>
+
+</body>
+
+</html>
